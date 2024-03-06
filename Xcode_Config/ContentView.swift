@@ -14,7 +14,9 @@ struct ContentView: View {
         .imageScale(.large)
         .foregroundStyle(.tint)
       Text("Hello, Git!")
-      
+        .font(.largeTitle)
+        .foregroundStyle(.red)
+
       Button("Click Here") {
         // add action later...
       }
