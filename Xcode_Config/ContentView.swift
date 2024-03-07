@@ -13,6 +13,7 @@ struct ContentView: View {
       Image(systemName: "doc.append")
         .imageScale(.large)
         .foregroundStyle(.tint)
+        .font(.title)
       Text("Hello, Git!")
         .font(.largeTitle)
         .foregroundStyle(.orange)
